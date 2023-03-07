@@ -1,0 +1,36 @@
+{
+  "name": "animate-svg",
+  "version": "1.0.0",
+  "description": "svg animation tools",
+  "license": "ISC",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "svg",
+    "animate",
+    "animation",
+    "animate-svg"
+  ],
+  "homepage": "https://github.com/simposons/animate-svg",
+  "bugs": {
+    "url": "https://github.com/simposons/animate-svg/issues"
+  },
+  "author": {
+    "name": "simposons",
+    "email": "simposons@qq.com",
+    "url": "https://github.com/simposons"
+  },
+  "contributors": [
+    {
+      "name": "chenxiaoxi",
+      "email": "chenxiaoxi.job@foxmail.com",
+      "url": "https://github.com/simposons"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/simposons/animate-svg.git"
+  }
+}
