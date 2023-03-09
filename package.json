@@ -5,7 +5,10 @@
   "license": "ISC",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "serve": "http-server . -p 8000",
+    "bulid": "npm run eslint&&npm run tsc",
+    "tsc": "tsc",
+    "eslint": "eslint src --ext .ts"
   },
   "keywords": [
     "svg",
@@ -40,10 +43,19 @@
       "url": "http://www.opensource.org/licenses/mit-license.php"
     }
   ],
-  "dependencies": {
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.0.0",
+    "eslint-config-standard-with-typescript": "^34.0.0",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-n": "^15.0.0",
+    "eslint-plugin-promise": "^6.0.0",
+    "typescript": "*",
     "uglify-js": "^3.17.4"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
+  },
+  "dependencies": {
+    "http-server": "^14.1.1"
   }
 }
