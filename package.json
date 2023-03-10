@@ -5,7 +5,8 @@
   "license": "ISC",
   "main": "index.js",
   "scripts": {
-    "serve": "http-server . -p 8000",
+    "start": "npm run bulid&& npm run serve",
+    "serve": "http-server  -p 8000  -c-1 -o --cors",
     "bulid": "npm run eslint&&npm run tsc",
     "tsc": "tsc",
     "eslint": "eslint src --ext .ts"
@@ -54,8 +55,5 @@
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
-  },
-  "dependencies": {
-    "http-server": "^14.1.1"
   }
 }
