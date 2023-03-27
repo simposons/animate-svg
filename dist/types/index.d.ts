@@ -13,7 +13,7 @@ interface pathType {
  * @export
  * @class AnimateSvg
  */
-export default class AnimateSvg {
+declare class AnimateSvg {
     protected key: string;
     protected svgKey: string;
     protected options: Option;
@@ -56,4 +56,5 @@ export default class AnimateSvg {
        */
     getelementList(): pathType[];
 }
-export {};
+
+export { AnimateSvg as default };
